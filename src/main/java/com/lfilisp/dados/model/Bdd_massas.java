@@ -1,4 +1,4 @@
-package bdd;
+package com.lfilisp.dados.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "massas")
-public class bdd_massas {
+public class Bdd_massas {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

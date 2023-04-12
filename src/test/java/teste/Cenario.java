@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         "json:target/cucumber-reports/CucumberTestReport.json",
         "timeline:target/test-output-thread/"
 },
-        features = "src/test/resources/features", tags = "@CT001_ValidacaoEspecificacoes",
+        features = "src/test/resources/features", tags = "@CT004_ValidacaoSomaEUpdate",
         glue = "", monochrome = true, dryRun = false)
 
 public class Cenario {
