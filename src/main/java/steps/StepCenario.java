@@ -93,7 +93,7 @@ public class StepCenario {
     }
     @Entao("validar que produto foi adicionado ao carrinho com a cor selecionada")
     public void verificarAdicaoEColor() throws Throwable {
-        System.out.println("CHEGUEI ONDE PAM PEDIU");
+        //System.out.println("CHEGUEI ONDE PAM PEDIU");
         page.verificarCarrinhoColor();
 
         page.fechar_browser();
@@ -101,7 +101,7 @@ public class StepCenario {
 
     @Entao("realizar um update no banco de automação alterar a cor existente no banco para a cor selecionada no teste")
     public void updateBancoColor() throws Throwable {
-        System.out.println("CHEGUEI ONDE PAM PEDIU");
+        //System.out.println("CHEGUEI ONDE PAM PEDIU");
         page.updateBancoColor();
 
         page.fechar_browser();

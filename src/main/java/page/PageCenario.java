@@ -291,7 +291,7 @@ public class PageCenario {
             Thread.sleep(2000);
             element = driver.findElement(By.xpath("//button[@id='checkOutPopUp']"));
             element.click();
-            System.out.println("Cliquei???");
+            //System.out.println("Cliquei???");
 
 
         } catch (Exception e) {
@@ -302,7 +302,7 @@ public class PageCenario {
     }
     public void conferirSoma() {
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1000);
             element = driver.findElement(By.xpath("//span[@class='roboto-medium totalValue ng-binding']"));
             String val = element.getText();
             String expected = "$899.98";
